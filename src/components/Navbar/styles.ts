@@ -17,14 +17,18 @@ export const Container = styled.nav`
     left: 0;
     top: -65px;
   }
+`
 
-  a {
-    color: turquoise;
-    display: flex;
-    margin: 0 10px;
-    padding: 10px 15px;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
+export const MenuLink = styled.a`
+  display: flex;
+  margin: 0 10px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: turquoise;
+
+  &.active {
+    font-size: 40px;
   }
 `

@@ -7,9 +7,25 @@ const Navbar = () => {
   return (
     <S.Container>
       <Image src={blinkingCat} alt='blackCat' />
-      <Link href='#home'>About me</Link>
-      <Link href='#home' className='active'>Home</Link>
-      <Link href='#home'>Projects</Link>
+
+      <Link href='#aboutMe' passHref>
+        <S.MenuLink>
+          About me
+        </S.MenuLink>
+      </Link>
+
+
+      <Link href='#home' passHref>
+        <S.MenuLink className='active'>
+          Home
+        </S.MenuLink>
+      </Link>
+
+      <Link href='#projects' passHref>
+        <S.MenuLink>
+          Projects
+        </S.MenuLink>
+      </Link>
     </S.Container>
   )
 }
