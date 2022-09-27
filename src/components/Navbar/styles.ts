@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.nav`
-  height: 10vh;
+  height: 8vh;
   width: 100vw;
   display: flex;
   position: absolute;
@@ -26,6 +26,7 @@ export const MenuLink = styled.a`
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: underline;
   color: turquoise;
 
   &.active {
