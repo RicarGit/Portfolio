@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import styled from 'styled-components'
 
-import Header from 'src/components/Header'
-import Navbar from 'src/components/Navbar'
+import { Header, Apresentation } from 'src/components'
 
 const Main = styled.main`
   width: 1300px;
@@ -19,8 +18,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Apresentation />
       <Header />
-      <Navbar />
       <Main>
 
       </Main>

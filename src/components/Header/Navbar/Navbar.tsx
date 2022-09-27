@@ -1,9 +1,9 @@
-import * as S from './styles'
+import * as S from './Navbar.styles'
 import blinkingCat from './catBlinking612x612.png'
 import Image from 'next/future/image'
 import Link from 'next/link'
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <S.Container>
       <Image src={blinkingCat} alt='blackCat' />
@@ -29,5 +29,3 @@ const Navbar = () => {
     </S.Container>
   )
 }
-
-export default Navbar
