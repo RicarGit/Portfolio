@@ -9,6 +9,7 @@ export const Apresentation = styled.section`
   position: relative;
 
   img {
+    background-color: #14181E;
     border-radius: 50%;
     rotate: 45deg;
     position: absolute;
@@ -58,9 +59,9 @@ export const HeroApresentation = styled.h1`
 export const HeroButtons = styled.button`
   padding: 15px 45px;
   margin-right: 20px;
-  margin-top: 80px;
+  margin-top: 90px;
   color: turquoise;
-  background-color: #000;
+  background-color: #14181E;
   font-weight: bold;
   letter-spacing: 0.5px;
   border-radius: 25px;

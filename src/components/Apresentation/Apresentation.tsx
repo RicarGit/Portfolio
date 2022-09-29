@@ -1,6 +1,6 @@
 import * as S from './Apresentation.styles'
 import Image from 'next/future/image'
-import myPhoto from './IMG_20181224_194345_312.jpg'
+import myPhoto from './myPhoto.png'
 
 export const Apresentation = () => {
   return (
