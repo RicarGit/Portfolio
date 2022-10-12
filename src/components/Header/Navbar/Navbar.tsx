@@ -1,7 +1,9 @@
 import * as S from './Navbar.styles'
-import blinkingCat from './catBlinking612x612.png'
-import Image from 'next/future/image'
+
 import Link from 'next/link'
+import Image from 'next/future/image'
+
+import blinkingCat from '/public/catBlinking612x612.png'
 
 export const Navbar = () => {
   return (
@@ -13,7 +15,6 @@ export const Navbar = () => {
           About me
         </S.MenuLink>
       </Link>
-
 
       <Link href='#home' passHref>
         <S.MenuLink className='active'>

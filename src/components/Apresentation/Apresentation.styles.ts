@@ -15,7 +15,6 @@ export const Apresentation = styled.section`
     position: absolute;
     right: 0;
     margin-right: 30px;
-    border: 2px solid turquoise;
     z-index: -1;
   }
 

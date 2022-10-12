@@ -15,8 +15,8 @@ export const MenuLink = styled.a`
   color: turquoise;
 
   &.active {
-    font-size: 40px;
-    -webkit-text-stroke: 1.5px turquoise;
+    font-size: 37px;
+    -webkit-text-stroke: .8px turquoise;
     color: transparent;
   }
 `

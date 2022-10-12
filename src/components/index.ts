@@ -1,2 +1,2 @@
-export * from './Apresentation/Apresentation'
+export * from './Apresentation'
 export * from './Header'
