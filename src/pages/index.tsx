@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import styled from 'styled-components'
 
-import { Header, Apresentation } from 'src/components'
+import { Header, Apresentation } from '~/components'
 
 const Main = styled.main`
-  width: 1300px;
+  max-width: 1300px;
   margin: 0 auto;
   display: flex;
   color: #fff;

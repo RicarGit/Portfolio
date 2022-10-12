@@ -6,17 +6,17 @@ export const Container = styled.nav`
 `
 
 export const MenuLink = styled.a`
-  margin: 0 10px;
+  margin: 0 5px;
   padding: 10px 15px;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: turquoise;
+  color: cyan;
 
   &.active {
     font-size: 37px;
-    -webkit-text-stroke: .8px turquoise;
+    -webkit-text-stroke: 1.5px cyan;
     color: transparent;
   }
 `
