@@ -1,15 +1,9 @@
 import * as S from './Navbar.styles'
-
 import Link from 'next/link'
-import Image from 'next/future/image'
-
-import blinkingCat from '/public/catBlinking612x612.png'
 
 export const Navbar = () => {
   return (
     <S.Container>
-      <Image src={blinkingCat} alt='blackCat' />
-
       <Link href='#aboutMe' passHref>
         <S.MenuLink>
           About me
