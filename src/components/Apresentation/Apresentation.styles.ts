@@ -77,7 +77,34 @@ export const HeroButtons = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: turquoise;
-    color: #000;
+    background-color: darkcyan;
+  }
+
+  &:nth-child(even) {
+      animation: glowingEven 1.6s ease-in-out infinite alternate;
+
+      @keyframes glowingEven {
+        from {
+          box-shadow: 0 0 7px cyan;
+        }
+        
+        to {
+          box-shadow: 0 0 15px cyan;
+        }
+      }
+    }
+
+    &:nth-child(odd) {
+      animation: glowingOdd 1.6s ease-in-out infinite alternate;
+
+      @keyframes glowingOdd {
+        from {
+          box-shadow: 0 0 15px cyan;
+        }
+        
+        to {
+          box-shadow: 0 0 7px cyan;
+        }
+      }
     }
 `
