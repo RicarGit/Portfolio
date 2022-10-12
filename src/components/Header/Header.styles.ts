@@ -10,11 +10,19 @@ export const Header = styled.header`
   bottom: 0;
   border-top: 2px solid turquoise;
 
-  img {
+  .blinking-cat {
     position: absolute;
-    height: 65px;
-    width: 85px;
+    z-index: -1;
     left: 0;
-    top: -65px;
+    animation: catAnimation 2.5s ease-in-out 5s forwards;
+
+    @keyframes catAnimation {
+      from {
+        top: 0;
+      }
+      to {
+        top: -59px;
+      }
+    }
   }
 `
