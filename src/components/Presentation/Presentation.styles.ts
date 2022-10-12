@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const Apresentation = styled.section`
+export const Presentation = styled.section`
   height: 92vh;
   max-width: 1300px;
   margin: 0 auto;

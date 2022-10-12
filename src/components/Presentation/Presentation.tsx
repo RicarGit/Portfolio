@@ -1,13 +1,13 @@
-import * as S from './Apresentation.styles'
+import * as S from './Presentation.styles'
 
 import Image from 'next/future/image'
-import myPhoto from 'public/myPhoto.png'
+import myPhoto from '/public/myPhoto.png'
 
 import { MediaContacts } from '~/components/MediaContacts'
 
-export const Apresentation = () => {
+export const Presentation = () => {
   return (
-    <S.Apresentation>
+    <S.Presentation>
       <MediaContacts />
 
       <S.HeroInfoContainer>
@@ -36,6 +36,6 @@ export const Apresentation = () => {
         height={520}
         alt='my portfolio photo'
       />
-    </S.Apresentation>
+    </S.Presentation>
   )
 }

@@ -1,7 +1,7 @@
 import * as S from './Header.styles'
 
 import Image from 'next/future/image'
-import blinkingCat from 'public/catBlinking612x612.png'
+import blinkingCat from '/public/catBlinking612x612.png'
 
 import { Navbar } from './Navbar'
 

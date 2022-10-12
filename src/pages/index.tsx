@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styled from 'styled-components'
 
-import { Header, Apresentation } from '~/components'
+import { Header, Presentation } from '~/components'
 
 const Main = styled.main`
   max-width: 1300px;
@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Apresentation />
+      <Presentation />
       <Header />
       <Main>
 
