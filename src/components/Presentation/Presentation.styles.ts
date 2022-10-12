@@ -43,10 +43,15 @@ export const HeroWelcome = styled.h2`
   margin-bottom: 25px;
 
   span {
-    color: #eee;
+    color: #ddd;
     font-weight: bold;
     background-color: #B71825;
     border-radius: 4px;
+    box-shadow:
+      rgba(183, 24, 37, 0.7) 20px 0 2px,
+      rgba(183, 24, 37, 0.5) 40px 0 5px,
+      rgba(183, 24, 37, 0.3) 60px 0 8px,
+      rgba(183, 24, 37, 0.2) 80px 0 11px;
   }
 `
 
