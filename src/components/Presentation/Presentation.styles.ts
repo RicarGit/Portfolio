@@ -45,13 +45,19 @@ export const HeroWelcome = styled.h2`
   span {
     color: #ddd;
     font-weight: bold;
-    background-color: #B71825;
     border-radius: 4px;
-    box-shadow:
+    animation: nameTrail 1.5s forwards .5s;
+  }
+
+  @keyframes nameTrail {
+    to {
+      background-color: #B71825;
+      box-shadow:
       rgba(183, 24, 37, 0.7) 20px 0 2px,
       rgba(183, 24, 37, 0.5) 40px 0 5px,
       rgba(183, 24, 37, 0.3) 60px 0 8px,
       rgba(183, 24, 37, 0.2) 80px 0 11px;
+    }
   }
 `
 
@@ -87,15 +93,15 @@ export const HeroButton = styled.button`
 
   &:nth-child(even) {
     animation: glowingButton 1.6s ease-in-out 4s infinite alternate;
-    }
+  }
 
-    &:nth-child(odd) {
+  &:nth-child(odd) {
     animation: glowingButton 1.6s ease-in-out 5.6s infinite alternate;
-        }
-        
+  }
+
   @keyframes glowingButton {
-        to {
+    to {
       box-shadow: 0 0 15px 1px cyan;
-      }
     }
+  }
 `

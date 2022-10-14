@@ -9,21 +9,32 @@ export const Header = styled.header`
   align-items: center;
   bottom: 0;
   background-color: #14181E;
-  box-shadow: 0 0 8px 1px cyan;
+  box-shadow: 0 0 2px 1px cyan;
+  animation: headerGlowing 3s infinite 4s alternate;
 
   .blinking-cat {
     position: absolute;
     z-index: -1;
     left: 0;
-    animation: catAnimation 2.5s ease-in-out 5s forwards;
+    animation: catAnimation 2.5s ease-in-out 6s forwards;
+  }
 
-    @keyframes catAnimation {
-      from {
-        top: 0;
-      }
-      to {
-        top: -59px;
-      }
+  @keyframes headerGlowing {
+    from {
+      box-shadow: 0 0 6px 1px cyan;
+    }
+
+    to {
+      box-shadow: 0 0 14px 2px cyan;
+    }
+  }
+  
+  @keyframes catAnimation {
+    from {
+      top: 0;
+    }
+    to {
+      top: -59px;
     }
   }
 `
