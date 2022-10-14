@@ -34,6 +34,7 @@ export const Presentation = () => {
         className='my-photo'
         width={520}
         height={520}
+        priority
         alt='my portfolio photo'
       />
     </S.Presentation>
