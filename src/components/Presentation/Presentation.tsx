@@ -15,18 +15,18 @@ export const Presentation = () => {
           Hi!👋 I am <span>Ricardo.</span>
         </S.HeroWelcome>
 
-        <S.HeroApresentation>
+        <S.HeroPresentation>
           A <span>Front-End Developer</span><br />
           from São Paulo.
-        </S.HeroApresentation>
+        </S.HeroPresentation>
 
-        <S.HeroButtons>
+        <S.HeroButton>
           Contact Me
-        </S.HeroButtons>
+        </S.HeroButton>
 
-        <S.HeroButtons>
+        <S.HeroButton>
           View Portfolio
-        </S.HeroButtons>
+        </S.HeroButton>
       </S.HeroInfoContainer>
 
       <Image

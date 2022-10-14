@@ -55,7 +55,7 @@ export const HeroWelcome = styled.h2`
   }
 `
 
-export const HeroApresentation = styled.h1`
+export const HeroPresentation = styled.h1`
   color: cyan;
   font-size: 76px;
   font-weight: bold;
@@ -67,7 +67,7 @@ export const HeroApresentation = styled.h1`
   }
 `
 
-export const HeroButtons = styled.button`
+export const HeroButton = styled.button`
   padding: 15px 45px;
   margin-right: 20px;
   margin-top: 90px;
@@ -77,7 +77,7 @@ export const HeroButtons = styled.button`
   letter-spacing: 0.5px;
   border-radius: 25px;
   border: none;
-  box-shadow: 0 0 10px cyan;
+  box-shadow: 0 0 7px cyan;
   transition: all .7s ease;
   cursor: pointer;
 
@@ -86,30 +86,16 @@ export const HeroButtons = styled.button`
   }
 
   &:nth-child(even) {
-      animation: glowingEven 1.6s ease-in-out infinite alternate;
-
-      @keyframes glowingEven {
-        from {
-          box-shadow: 0 0 7px cyan;
-        }
-        
-        to {
-          box-shadow: 0 0 15px cyan;
-        }
-      }
+    animation: glowingButton 1.6s ease-in-out 4s infinite alternate;
     }
 
     &:nth-child(odd) {
-      animation: glowingOdd 1.6s ease-in-out infinite alternate;
-
-      @keyframes glowingOdd {
-        from {
-          box-shadow: 0 0 15px cyan;
+    animation: glowingButton 1.6s ease-in-out 5.6s infinite alternate;
         }
         
+  @keyframes glowingButton {
         to {
-          box-shadow: 0 0 7px cyan;
-        }
+      box-shadow: 0 0 15px 1px cyan;
       }
     }
 `

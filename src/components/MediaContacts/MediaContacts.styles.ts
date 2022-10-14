@@ -19,9 +19,14 @@ export const Container = styled.div`
     }
 
     &:nth-child(even) {
-      animation: floatingEven 1.6s ease-in-out infinite alternate;
+      animation: floatingIcons 1.6s ease-in-out 4s infinite alternate;
+    }
 
-      @keyframes floatingEven {
+    &:nth-child(odd) {
+      animation: floatingIcons 1.6s ease-in-out 5.6s infinite alternate;
+    }
+  }
+  
         from {
           top: 0;
           box-shadow: 0 0 5px cyan;
@@ -34,20 +39,15 @@ export const Container = styled.div`
       }
     }
 
-    &:nth-child(odd) {
-      animation: floatingOdd 1.6s ease-in-out infinite alternate;
-      
-      @keyframes floatingOdd {
+  @keyframes floatingIcons {
         from {
-          top: 7px;
-          box-shadow: 0 0 10px cyan;
-        }
-
-        to {
           top: 0;
           box-shadow: 0 0 5px cyan;
         }
-      }
+    
+    to {
+      top: 7px;
+      box-shadow: 0 0 10px cyan;
     }
   }
 `
